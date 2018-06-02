@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Query History</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <style>
+    </style>
+</head>
+<body>
+<nav class="navbar sticky-top navbar-light" style="background-color: #56b1c1">
+    <span class="navbar-brand mb-0 h1">Query History</span>
+</nav>
+<div class="container-fluid mt-3">
+    <table id="userTable" class="table-responsive">
+        <tr th:each="query :${queryHistoryList}">
+            <td>
+                <table class="table table-bordered">
+                    <tr>
+                        <td class="alert alert-info">
+                            <b>Host:</b>
+                            <span class="pr-2" th:text="${query.getHost()}"></span>
+
+                            <b>Date:</b>
+                            <span class="pr-2" th:text="${query.getDate()}"></span>
+
+                            <b>Duration:</b>
+                            <span th:text="${query.getDuration()}+'ms'"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <table>
+                                <tr>
+                                    <td th:each="columnName: ${query.getResult().keySet()}"
+                                        th:text="${columnName}"></td>
+                                </tr>
+                                <tr>
+                                    <td th:each="columnValue: ${query.getResult().values()}">
+                                        <code class="prettyprint lang-js" th:text="${columnValue}">
+                                        </code>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</div>
+</body>
+<script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
+</html>
