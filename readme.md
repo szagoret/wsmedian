@@ -13,7 +13,7 @@ Endpoint is available at `http://localhost:8080/median`
 
 ### Inspect past queries
 
-`http://localhost:8080/median`
+`http://localhost:8080/history`
 
 [<img src="doc/history-main.png">](doc/history-main.png)
 
