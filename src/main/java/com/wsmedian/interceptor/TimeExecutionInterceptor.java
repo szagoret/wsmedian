@@ -1,4 +1,4 @@
-package com.rapidminer.wsmedian.interceptor;
+package com.wsmedian.interceptor;
 
 import org.springframework.stereotype.Component;
 import org.springframework.web.servlet.handler.HandlerInterceptorAdapter;

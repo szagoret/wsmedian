@@ -1,4 +1,4 @@
-package com.rapidminer.wsmedian.model;
+package com.wsmedian.model;
 
 import org.springframework.data.mongodb.core.mapping.Document;
 

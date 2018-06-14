@@ -1,8 +1,8 @@
-package com.rapidminer.wsmedian.controller.advice;
+package com.wsmedian.controller.advice;
 
-import com.rapidminer.wsmedian.controller.MedianController;
-import com.rapidminer.wsmedian.model.QueryHistory;
-import com.rapidminer.wsmedian.repository.QueryHistoryRepository;
+import com.wsmedian.controller.MedianController;
+import com.wsmedian.model.QueryHistory;
+import com.wsmedian.repository.QueryHistoryRepository;
 import org.springframework.core.MethodParameter;
 import org.springframework.http.MediaType;
 import org.springframework.http.converter.HttpMessageConverter;

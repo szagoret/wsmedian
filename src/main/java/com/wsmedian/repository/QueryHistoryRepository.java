@@ -1,6 +1,6 @@
-package com.rapidminer.wsmedian.repository;
+package com.wsmedian.repository;
 
-import com.rapidminer.wsmedian.model.QueryHistory;
+import com.wsmedian.model.QueryHistory;
 import org.springframework.data.repository.CrudRepository;
 
 /**

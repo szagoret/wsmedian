@@ -1,6 +1,6 @@
-package com.rapidminer.wsmedian.config;
+package com.wsmedian.config;
 
-import com.rapidminer.wsmedian.interceptor.TimeExecutionInterceptor;
+import com.wsmedian.interceptor.TimeExecutionInterceptor;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;

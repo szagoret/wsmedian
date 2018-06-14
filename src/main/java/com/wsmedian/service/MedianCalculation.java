@@ -1,6 +1,6 @@
-package com.rapidminer.wsmedian.service;
+package com.wsmedian.service;
 
-import com.rapidminer.wsmedian.util.MultiMapData;
+import com.wsmedian.util.MultiMapData;
 
 import java.util.List;
 import java.util.Map;

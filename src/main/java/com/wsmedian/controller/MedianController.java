@@ -1,6 +1,6 @@
-package com.rapidminer.wsmedian.controller;
+package com.wsmedian.controller;
 
-import com.rapidminer.wsmedian.service.MedianService;
+import com.wsmedian.service.MedianService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;

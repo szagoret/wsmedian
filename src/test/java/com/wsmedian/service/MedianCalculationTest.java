@@ -1,4 +1,4 @@
-package com.rapidminer.wsmedian.service;
+package com.wsmedian.service;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

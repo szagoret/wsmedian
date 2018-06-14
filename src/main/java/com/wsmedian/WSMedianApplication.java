@@ -1,4 +1,4 @@
-package com.rapidminer.wsmedian;
+package com.wsmedian;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,4 +1,4 @@
-package com.rapidminer.wsmedian.service;
+package com.wsmedian.service;
 
 import java.util.List;
 import java.util.Map;

@@ -1,4 +1,4 @@
-package com.rapidminer.wsmedian.util;
+package com.wsmedian.util;
 
 import java.util.LinkedHashMap;
 import java.util.Map;
